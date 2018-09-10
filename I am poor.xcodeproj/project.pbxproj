@@ -12,6 +12,7 @@
 		85530A3D21466BFF00C4FCBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85530A3B21466BFF00C4FCBF /* Main.storyboard */; };
 		85530A3F21466C0000C4FCBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85530A3E21466C0000C4FCBF /* Assets.xcassets */; };
 		85530A4221466C0000C4FCBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85530A4021466C0000C4FCBF /* LaunchScreen.storyboard */; };
+		85643213214670E400AFAE5D /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 85643212214670E400AFAE5D /* Fonts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		85530A3E21466C0000C4FCBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85530A4121466C0000C4FCBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85530A4321466C0000C4FCBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85643212214670E400AFAE5D /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = ../../../../../../../Downloads/Fonts; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				85530A3721466BFF00C4FCBF /* AppDelegate.swift */,
 				85530A3921466BFF00C4FCBF /* ViewController.swift */,
 				85530A3B21466BFF00C4FCBF /* Main.storyboard */,
+				85643212214670E400AFAE5D /* Fonts */,
 				85530A3E21466C0000C4FCBF /* Assets.xcassets */,
 				85530A4021466C0000C4FCBF /* LaunchScreen.storyboard */,
 				85530A4321466C0000C4FCBF /* Info.plist */,
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85643213214670E400AFAE5D /* Fonts in Resources */,
 				85530A4221466C0000C4FCBF /* LaunchScreen.storyboard in Resources */,
 				85530A3F21466C0000C4FCBF /* Assets.xcassets in Resources */,
 				85530A3D21466BFF00C4FCBF /* Main.storyboard in Resources */,
@@ -290,7 +294,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zephyr.I-am-poor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zephyr.I-am-poor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
